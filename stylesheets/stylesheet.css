@@ -35,10 +35,9 @@ a {
   border-color: rgba(255, 255, 255, 0.3); }
 
 .page-header {
-  color: #fff;
+  color: #337ab7;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+}
 
 .project-name {
   margin-top: 0;
