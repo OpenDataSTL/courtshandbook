@@ -34,6 +34,62 @@ a {
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
 
+/* -- NAVIGATION -- */
+#nav {
+/*	margin: auto; */
+	padding: 0px 0px;
+	font-size: 1em;
+	font-weight: 500;
+	text-transform: uppercase;
+	line-height: 200%;
+	z-index: 100; }
+
+#nav a {
+	text-decoration: none;
+	padding: 15px 15px; }
+
+#nav a:link {
+	color: #000033; }
+
+#nav a:visited {
+	color: #000033; }
+
+#nav a:hover {
+	color: #50bae0;
+/*	background-color: #FFFFFF; */ }
+
+#nav ul {
+	list-style-type: none;
+	padding-left: 20px;
+	position: relative; }
+
+#nav ul:after {
+		content: ""; clear: both; display: block; }
+
+#nav li {
+	display: inline-block;
+	padding: 0px 5px 0px 0px; }
+
+/* DROP-DOWN MENU adapted from http://cssdeck.com/labs/another-simple-css3-dropdown-menu --> */
+
+#nav ul li ul {
+	display: none;
+	margin-top: 15px;
+	border: 2px solid #303030; }
+
+#nav ul li:hover > ul {
+	display: block; }
+
+#nav ul ul {
+	background: #F3F3F3;
+	border: 1px solid #303030;
+	position: absolute;
+	top: 100%; }
+
+/* DROP-DOWN MENU ends */
+/* -- NAVIGATION ends -- */
+
+
 @media screen and (min-width: 64em) {
   .btn {
     padding: 0.75rem 1rem; } }
