@@ -64,7 +64,8 @@ a {
 .project-tagline {
   margin-bottom: 2rem;
   font-weight: normal;
-  opacity: 0.7; }
+  opacity: 0.7;
+  font-size: 1.2rem; }
 
 .main-content :first-child {
   margin-top: 0; }
