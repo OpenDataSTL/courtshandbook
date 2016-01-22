@@ -39,6 +39,24 @@ a {
   text-align: center;
 }
 
+/* -- center nav -->
+#mainnav {
+  text-align: center
+}
+#mainnav ul.nav-pills {
+  display: inline-block
+}
+#mainnav li {
+  display: inline
+}
+#mainnav a {
+  float: left
+}
+*html #mainnav ul.nav-pills, *+html #mainnav ul.nav-pills {
+  display: inline
+}
+/* <-- center nav --/
+
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem; }
