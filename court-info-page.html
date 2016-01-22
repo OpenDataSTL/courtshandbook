@@ -39,11 +39,11 @@
 <div class="row">
 <div class="col-md-6"><h3>Top-left</h3>
 	<h5>Last verified:<h5> <p>January 22, 2016</p><br>
-	<h5>URL:</h5> <a href="#" target="blank_">http://www.stlouisco.com/LawandPublicSafety/MunicipalCourts</a>
-	<h5>Phone:</h5> <p>314-000-0000</p>
+	<h5>URL:</h5> <a href="{{courtwebsite}}" target="blank_">{{courtwebsite}}</a>
+	<h5>Phone:</h5> <p>{{courtphone}}</p>
 	</div>
 <div class="col-md-6"><h3>Top-right</h3>
-	<p>1234 City Street<br>St. Louis, MO 63116</p>
+	<p>{{address}}<br>{{municipality}}, MO {{zip}}</p>
 	<p>MTWThF:00 AM - 5:00 PM</PM>
 	<p>Holidays!</p>
 	</div>
@@ -51,20 +51,23 @@
 
 <div class="row">
 	<h3>At Court:</h3>
-	<h5>Dress code</h5>
+	<h5>Dress code:</h5> <p>{{dresscode}}</p>
 	<p>Here's some info about what to wear.</p>
-	<h5>Order people seen:</h5>
+	<h5>Order seen:</h5> <p>{{orderseen}}</p>
 	<p>Alphabetical; first come, first served; or other?</p>
 	</div>
 
 <div class="row">
 <div class="col-md-6"><h3>Online resources</h3>
-	<h5>Online Payment Link</h5>
+	<h5>Online Payment Link:</h5> <p><a href="{{paymentlink}}" target="blank_">{{paymentlink}}</a> ({{paymentsystem}})</p>
 	<h5>Fee for online payment:</h5> If available.
+	<h5>Municipal codes:</h5> <p><a href="{{municipalcodes}}" target="blank_">{{municipalcodes}}</a></p>
 	</div>
 <div class="col-md-6"><h3>Staff</h3>
-	<h5>Judge(s):</h5><p>Judge McJudgerson</p>
-	<h5>Clerk(s):</h5><p>Clerk name 1, Clerk name 2</p>
+	<h5>Judge(s):</h5><p>{{judge}}</p>
+	<h5>Clerk:</h5><p>{{clerk}}</p>
+	<h5>Clerk phone:</h5><p>{{clerkphone}}</p>
+	<h5>Clerk email:</h5><p>{{clerkemail}}</p>
 	</div>
 </div>
 
