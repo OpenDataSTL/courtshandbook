@@ -164,6 +164,10 @@ a {
   margin: 1rem 0;
   background-color: #eff0f1;
   border: 0; }
+
+.panel-title {
+  color: #000000;
+}
   
 .site-footer {
   padding-top: 2rem;
